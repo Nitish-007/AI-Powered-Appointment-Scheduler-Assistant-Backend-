@@ -10,7 +10,6 @@ It supports **raw text** as well as **files (PDF, DOCX, images)** with OCR.
 
 ---
 ## Setup Instrucions
-## ⚙️ Setup Instructions  
 
 Follow these steps to get the **Appointment NLP API** up and running locally with Ngrok:
 
@@ -19,8 +18,7 @@ Follow these steps to get the **Appointment NLP API** up and running locally wit
 ### 1) Clone the Repository  
 
 ```bash
-git clone https://github.com/<your-username>/appointment-nlp-api.git
-cd appointment-nlp-api
+git clone https://github.com/Nitish-007/AI-Powered-Appointment-Scheduler-Assistant-Backend-.git
 ```
 
 ### 2️) Create and Activate Virtual Environment
@@ -59,6 +57,7 @@ Dependencies include:
 Download the English model required for spaCy:
 ```bash
 python -m spacy download en_core_web_sm
+python my_app.py
 ```
 
 
